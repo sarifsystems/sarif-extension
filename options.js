@@ -15,7 +15,7 @@ function save_options() {
 
 function restore_options() {
 	chrome.storage.local.get({
-		host: "ws://localhost:5000/stream/sarif",
+		host: "ws://localhost:5000/socket",
 		deviceId: "webextension",
 		authToken: "",
 	}, function(options) {
