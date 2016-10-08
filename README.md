@@ -7,4 +7,4 @@ This is a browser WebExtension for [sarif](http://github.com/sarifsystems/sarif)
 an experimental personal assistant and data analysis platform. Currently, it
 only tracks browsing habits and submits all visited URLs over WebSocket to
 sarif, and it is up to the user to further store/process the data. It should
-work in Firefox 48+, but may also work in Google Chrome.
+work in Firefox 48+ and in Google Chrome.
